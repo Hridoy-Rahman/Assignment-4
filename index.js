@@ -43,7 +43,7 @@ function evenOdd(str){
 
 }
 
-const string="chatgpt";
+const string="Phero";
 console.log(evenOdd(string)); //Calling the function and printing the result
 
 
@@ -57,17 +57,17 @@ function isLGSeven(number){
         return "Please enter a number";
     }
 
-    const absoluteDifference=Math.abs(number-7);
+    const absoluteDifference=(number-7);
 
     if(absoluteDifference<7){
         return (number-7);
     }
     else{
-        return (absoluteDifference*2);
+        return (number*2);
     }
 }
 
-const inputNumber=6;
+const inputNumber=15;
 console.log(isLGSeven(inputNumber));  //Calling the function and printing the result
 
 

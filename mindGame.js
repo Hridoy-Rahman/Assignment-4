@@ -15,6 +15,6 @@ function mindGame(number){
     return result;
 }
 
-const number=50;
+const number=33;
 const result=mindGame(number); //calling the function
 console.log(result);
